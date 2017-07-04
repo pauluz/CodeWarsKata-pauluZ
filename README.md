@@ -1,12 +1,15 @@
-// pauluZ
+pauluZ
+======
 
 User
 ----
-https://www.codewars.com/api/v1/users/pauluZ
+https://www.codewars.com/users/pauluZ
 
 API:
 ----
 https://dev.codewars.com/
+
+https://www.codewars.com/api/v1/users/pauluZ
 
 
 PHPUnit
