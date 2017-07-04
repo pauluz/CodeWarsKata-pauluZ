@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- pZ: -->
+
+<!-- https://phpunit.de/manual/current/en/appendixes.configuration.html -->
+<phpunit
+    backupGlobals               = "false"
+    backupStaticAttributes      = "false"
+    colors                      = "false"
+    convertErrorsToExceptions   = "true"
+    convertNoticesToExceptions  = "true"
+    convertWarningsToExceptions = "true"
+    processIsolation            = "false"
+    stopOnError                 = "false"
+    stopOnFailure               = "false"
+    stopOnIncomplete            = "false"
+    stopOnSkipped               = "false"
+    syntaxCheck                 = "true"
+    bootstrap                   = "Kata/Bootstrap.php"
+    verbose                     = "true"
+>
+
+    <testsuites>
+        <testsuite name="Kata Tests">
+            <directory>Kata/*/Tests</directory>
+        </testsuite>
+        <testsuite name="Sandbox">
+            <!--<directory>Sandbox/*/Tests</directory>-->
+        </testsuite>
+    </testsuites>
+
+    <php>
+        <!--<server name="KERNEL_DIR" value="/path/to/your/app/" />-->
+        <!--<env name="BOOTSTRAP_CLEAR_CACHE_ENV" value="test"/>-->
+    </php>
+
+    <!-- configure the blacklist and whitelist for the CODE COVERAGE reporting -->
+    <filter>
+        <whitelist>
+            <directory>Kata/*</directory>
+            <exclude>
+                <directory>Kata/*/Resources</directory>
+                <directory>Kata/*/Tests</directory>
+                <directory>Sandbox/*/Tests</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+
+    <!-- Logging - see TXT -->
+    <logging>
+        <log type="tap" target="logs/logfile.tap"/>
+        <!--<log type="testdox-html" target="logs/testdox.html"/>-->
+        <log type="testdox-text" target="logs/testdox.txt"/>
+        <log type="coverage-text" target="logs/coverage.txt" showUncoveredFiles="false"/>
+        <log type="coverage-html" target="logs/kata-coverage" lowUpperBound="35" highLowerBound="70"/>
+    </logging>
+
+</phpunit>

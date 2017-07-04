@@ -1,0 +1,48 @@
+{
+  "id": "51b62bf6a9c58071c600001b",
+  "name": "Roman Numerals Encoder",
+  "slug": "roman-numerals-encoder",
+  "category": "algorithms",
+  "publishedAt": "2013-06-10T19:46:29Z",
+  "approvedAt": null,
+  "languages": [
+    "javascript",
+    "coffeescript",
+    "ruby",
+    "python",
+    "haskell",
+    "java",
+    "typescript",
+    "cpp",
+    "php",
+    "csharp",
+    "swift",
+    "elixir"
+  ],
+  "url": "https://www.codewars.com/kata/roman-numerals-encoder",
+  "rank": {
+    "id": -4,
+    "name": "4 kyu",
+    "color": "blue"
+  },
+  "createdAt": "2013-06-10T19:41:43Z",
+  "createdBy": {
+    "username": "jhoffner",
+    "url": "https://www.codewars.com/users/jhoffner"
+  },
+  "description": "Create a function taking a positive integer as its parameter and returning a string containing the Roman Numeral representation of that integer.\n\nModern Roman numerals are written by expressing each digit separately starting with the left most digit and skipping any digit with a value of zero. In Roman numerals 1990 is rendered: 1000=M, 900=CM, 90=XC; resulting in MCMXC. 2008 is written as 2000=MM, 8=VIII; or MMVIII. 1666 uses each Roman symbol in descending order: MDCLXVI.\n\nExample:\n```javascript\nsolution(1000); // should return 'M'\n```\n```coffeescript\nsolution(1000) # should return 'M'\n```\n```ruby\nsolution(1000) # should return 'M'\n```\n```python\nsolution(1000) # should return 'M'\n```\n```haskell\nsolution 1000 -- should return \"M\"\n```\n```java\nconversion.solution(1000); //should return \"M\"\n```\n```typescript\nsolution(1000); // should return 'M'\n```\n```cpp\nsolution(1000); // should return \"M\"\n```\n```php\nsolution(1000); // should return \"M\"\n```\n```csharp\nRomanConvert.Solution(1000) -- should return \"M\"\n```\n```swift\nsolution(1000) // should return \"M\"\n```\n```elixir\nsolution(1000) # should return \"M\"\n```\n\nHelp:\n```\nSymbol\tValue\nI\t      1\nV\t      5\nX\t      10\nL\t      50\nC\t      100\nD\t      500\nM\t      1,000\n```\n\nRemember that there can't be more than 3 identical symbols in a row.\n\n\nMore about roman numerals - http://en.wikipedia.org/wiki/Roman_numerals\n",
+  "totalAttempts": 31895,
+  "totalCompleted": 5897,
+  "totalStars": 379,
+  "voteScore": 498,
+  "tags": [
+    "Algorithms",
+    "Encoding",
+    "Logic"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 5,
+    "suggestions": 4
+  }
+}

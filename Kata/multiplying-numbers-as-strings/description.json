@@ -1,0 +1,42 @@
+{
+  "id": "55911ef14065454c75000062",
+  "name": "Multiplying numbers as strings",
+  "slug": "multiplying-numbers-as-strings",
+  "category": "reference",
+  "publishedAt": "2015-06-29T12:50:07Z",
+  "approvedAt": "2017-02-28T13:11:31Z",
+  "languages": [
+    "javascript",
+    "php"
+  ],
+  "url": "https://www.codewars.com/kata/multiplying-numbers-as-strings",
+  "rank": {
+    "id": -3,
+    "name": "3 kyu",
+    "color": "blue"
+  },
+  "createdAt": "2015-06-29T10:33:22Z",
+  "createdBy": {
+    "username": "osofem",
+    "url": "https://www.codewars.com/users/osofem"
+  },
+  "approvedBy": {
+    "username": "SteffenVogel_79",
+    "url": "https://www.codewars.com/users/SteffenVogel_79"
+  },
+  "description": "This is the first part. You can solve the second part <a href=\"https://www.codewars.com/kata/multiplying-numbers-as-strings-part-ii/javascript\">here</a> when you are done with this.\nMultiply two numbers! Simple!\n\n1. The arguments are passed as strings.\n2. The numbers may be way very large\n3. Answer should be returned as a string\n4. The returned \"number\" should not start with zeros e.g. 0123 is invalid\n\nNote: 100 randomly generated tests!",
+  "totalAttempts": 4057,
+  "totalCompleted": 321,
+  "totalStars": 58,
+  "voteScore": 98,
+  "tags": [
+    "Fundamentals",
+    "Strings",
+    "Data Types"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 0,
+    "suggestions": 1
+  }
+}
