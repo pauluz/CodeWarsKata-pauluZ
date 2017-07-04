@@ -1,0 +1,52 @@
+{
+  "id": "573992c724fc289553000e95",
+  "name": "Find the smallest",
+  "slug": "find-the-smallest",
+  "category": "reference",
+  "publishedAt": "2016-05-16T09:28:46Z",
+  "approvedAt": "2016-08-19T09:47:24Z",
+  "languages": [
+    "ruby",
+    "python",
+    "javascript",
+    "coffeescript",
+    "java",
+    "csharp",
+    "haskell",
+    "clojure",
+    "elixir",
+    "cpp",
+    "typescript",
+    "php",
+    "crystal",
+    "fsharp",
+    "c",
+    "swift"
+  ],
+  "url": "https://www.codewars.com/kata/find-the-smallest",
+  "rank": {
+    "id": -5,
+    "name": "5 kyu",
+    "color": "yellow"
+  },
+  "createdAt": "2016-05-16T09:28:39Z",
+  "createdBy": {
+    "username": "g964",
+    "url": "https://www.codewars.com/users/g964"
+  },
+  "approvedBy": {
+    "username": "SteffenVogel_79",
+    "url": "https://www.codewars.com/users/SteffenVogel_79"
+  },
+  "description": "You have a positive number `n` consisting of digits. \nYou can do **at most** one operation: \nChoosing the index of a digit in the number, remove this digit at that index and \ninsert it back to another place in the number.\n\nDoing so, find the smallest number you can get.\n\n#Task:\nReturn an array or a tuple depending on the language (see \"Your Test Cases\" Haskell) \nwith\n\n- 1) the smallest number you got\n- 2) the index `i` of the digit `d` you took, `i` as small as possible\n- 3) the index `j` (as small as possible) where you insert this digit `d` to have the smallest number.\n\n\nExample:\n```\nsmallest(261235) --> [126235, 2, 0]\n```\n`126235` is the smallest number gotten by taking `1` at index `2` and putting it at index `0`\n```\nsmallest(209917) --> [29917, 0, 1]\n\n[29917, 1, 0] could be a solution too but index `i` in [29917, 1, 0] is greater than \nindex `i` in [29917, 0, 1].\n```\n`29917` is the smallest number gotten by taking `2` at index `0` and putting it at index `1`\nwhich gave `029917` which is the number `29917`.\n\n```\nsmallest(1000000) --> [1, 0, 6]\n```",
+  "totalAttempts": 20348,
+  "totalCompleted": 683,
+  "totalStars": 236,
+  "voteScore": 125,
+  "tags": ["Fundamentals"],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 0,
+    "suggestions": 0
+  }
+}
